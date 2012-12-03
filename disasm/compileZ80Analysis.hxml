@@ -1,0 +1,16 @@
+-main Z80Analysis
+-lib nme
+#-lib arctic
+#-lib hxGtk
+#-lib hxcpp
+#-lib neash
+#-lib swhx
+--remap neash:nme
+--remap flash:nme	
+#--remap neko:jeash
+#--remap neko:cpp
+#-cpp cpp
+#-neko z80analysis.n
+-js z80analysis.js
+#-swf z80analysis.swf
+#-swf-version 9
